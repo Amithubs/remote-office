@@ -1,0 +1,1 @@
+ALTER TABLE user_leave ADD COLUMN leave_type leave NOT NULL DEFAULT 'other'::leave;
